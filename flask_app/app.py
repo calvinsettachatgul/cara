@@ -1,6 +1,5 @@
 from flask import Flask
 
-print('running flask_app')
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret'
