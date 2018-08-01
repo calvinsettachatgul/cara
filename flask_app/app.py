@@ -1,11 +1,10 @@
 from flask import Flask
 
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret'
 @app.route('/')
 def hello_world():
-  return "hello world! python3"
+  return "hello world!"
 
 
 if __name__ == "__main__":
