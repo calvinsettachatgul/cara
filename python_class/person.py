@@ -1,5 +1,4 @@
 class Person:
-  
   species = "homosapiens"
   def __init__(self, firstname, lastname):
     self.firstname = firstname
@@ -19,7 +18,7 @@ print("describe Person new a person has a first name and last name")
 print(calvin.firstname == "calvin")
 print(calvin.lastname == "settachatgul")
 print(ramsey.firstname == "ramsey")
-print(ramsey.lastname == "darling")
+print(ramsey.lastname == "darling") 
 
 print("describe Person say_hello expect a person to say hello and return 'hello my name is firstname lastname'")
 print(calvin.say_hello() == 'hello my name is calvin settachatgul')
@@ -29,11 +28,11 @@ print(ramsey.say_hello() == 'hello my name is ramsey darling')
 # execute the say_hello function
 # arr =[];
 # for( var i=0; i< arr.length; i++){
-  
+# do some stuff
 # }
 
 for person in people:
-  print (person.firstname)
-  print (person.lastname)
+  print(person.firstname)
+  print(person.lastname)
   print(person.say_hello())
-  
+  print(person.species)
