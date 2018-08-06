@@ -12,8 +12,7 @@ def index():
   
 @app.route('/indextwo')
 def indextwo():
-  return render_template('indextwo.html', data = {'key1': 'value1'})
-
+  return render_template('indextwo.html', data={'key1': 'value1'})
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port=8080, debug=True)
