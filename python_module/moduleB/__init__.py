@@ -1,0 +1,1 @@
+variable_from_module_b_init = 'variable from moduleB init'
