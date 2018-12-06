@@ -11,3 +11,6 @@ Don't forget the space after the closing parentheses!
 '''
 
 # TODO: create a test file
+
+def create_phone_number(num_list):
+    return num_list
