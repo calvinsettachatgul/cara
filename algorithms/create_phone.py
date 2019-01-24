@@ -12,4 +12,9 @@ Don't forget the space after the closing parentheses!
 
 # TODO: create a test file
 def create_phone_number(num_list):
-    return num_list
+    num_str_list = list(map(str, num_list))
+    delimiter = ""
+    area_code = delimiter.join(num_str_list[0:3])
+    num_part1 = delimiter.join(num_str_list[3:6])
+    num_part2 = delimiter.join(num_str_list[6:])
+    return "({}) {}-{}".format(area_code, num_part1, num_part2)
